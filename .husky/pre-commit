@@ -1,18 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 echo '🛠️🛠️🛠️  Styling, testing and building your project before committing  🛠️🛠️🛠️'
-
-# Check tsconfig
-npm run check-types ||
-(
-  echo '🚨🚨🚨  TypeScript check failed  🚨🚨🚨'
-  false
-)
 
 # Check Prettier standards
 npm run check-format ||

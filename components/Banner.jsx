@@ -13,7 +13,7 @@ const Banner = () => {
         // objectFit='contain'
         objectFit='cover'
       />
-      <div className='absolute top-1/2 w-full text-center'>
+      <div className='absolute top-2/4 w-full text-center'>
         <p className='text-white text-sm sm:text-2xl'>
           Not sure where to go? Prefect.
         </p>
